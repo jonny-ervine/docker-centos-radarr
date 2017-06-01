@@ -19,7 +19,7 @@ RUN rm -f Radarr.develop.*.linux.tar.gz
 
 ADD start.sh /sbin/start.sh
 ADD supervisord.conf /etc/supervisord.conf
-ADD sonarr.ini /etc/supervisord.d/radarr.ini
+ADD radarr.ini /etc/supervisord.d/radarr.ini
 
 RUN chmod 755 /sbin/start.sh
 EXPOSE 7878 9011
