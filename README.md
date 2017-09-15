@@ -1,7 +1,7 @@
 # docker-centos-radarr
-## Radarr Movie Organiser on CentOS (7.3)
-### Build Version: 2
-Date: 10th July 2017
+## Radarr Movie Organiser on CentOS (7.4)
+### Build Version: 3
+Date: 15th September 2017
 
 The Dockerfile should intialise the CentOS image and subscribe to the EPEL, mono, EPEL-rar, and EPEL-multimedia repositories (the last two are hosted at negativo17.org) The pre-requisites for Radarr are then installed via yum.
 
